@@ -37,3 +37,43 @@ int main() {
 
     return 0;
 }
+
+/*
+    --  OUTPUT  --
+    
+    /Users/soner/CLionProjects/proje/cmake-build-debug/proje
+Here is the initial matrix m:
+ 0  0  1
+ 0  1  0
+ 1  0  0
+-1  0  0
+ 0  0 -1
+ 0 -1  0
+Here is the initial matrix d:
+1
+1
+1
+1
+1
+1
+The matrix m is of size 6x3
+It has 18 coefficients
+and after being transposed:
+ 0  0  1 -1  0  0
+ 0  1  0  0  0 -1
+ 1  0  0  0 -1  0
+Null space:
+-0  1 -0
+-0 -0  1
+ 1 -0 -0
+ 1  0  0
+ 0  1  0
+ 0  0  1
+Null space Transposed_A:
+-0 -0  1  1  0  0
+ 1 -0 -0  0  1  0
+-0  1 -0  0  0  1
+
+Process finished with exit code 0
+
+*/
